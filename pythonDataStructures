@@ -1,0 +1,78 @@
+# Lists are enclosed in brackets:
+l = [1, 2, "a"]
+methods
+index
+insert
+remove
+pop
+count
+sort
+reverse
+append
+extend
+
+
+# Tuples are enclosed in parentheses:
+t = (1, 2, "a")
+Tuples are faster and consume less memory. 
+methods
+index
+count
+
+
+# Dictionaries are built with curly brackets:
+d = {"a":1, "b":2}
+methods:
+keys
+value
+items
+has_key
+get
+pop
+popitem
+
+copy
+clear
+del
+
+# Strings
+Methods to query information :
+isdigit()
+isalpha()
+islower()
+isupper()
+istitle()
+isspace() 
+isalnum()
+count
+len
+Methods that return a modified version of the string :
+title()
+capitalize()
+lower()
+upper()
+swapcase()
+center
+ljust
+rjust
+zfill
+strip
+rstrip
+lstrip
+expandtab
+translate
+replace
+partition
+Methods to find position of substrings
+endswith()
+startswith()
+find()
+index()
+Methods to build or decompose a string :
+split
+rsplit
+
+
+# Sets
+a = set([1, 2, 3, 4])
+Sets are constructed from a sequence (or some other iterable object). Since sets cannot have duplicated, there are usually used to build sequence of unique items (e.g., set of identifiers). 
